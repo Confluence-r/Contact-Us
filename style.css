@@ -1,0 +1,205 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+}
+.background {
+  font-family: tahoma;
+  height: 100%;
+  background-image: url(https://picsum.photos/seed/picsum/3000/2000);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.contact .heading {
+    margin-bottom: 50px;
+}
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #404356;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contact .heading h2 span {
+    color: #7035cf;
+    font-weight: 300;
+}
+.contact .heading p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #525f7f;
+    line-height: 26px;
+    margin: 0;
+}
+.contact .main {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(0,0,0,0.08);
+}
+.contact .main h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a545e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f8f8f9;
+    border: 0;
+    border-radius: 5px;
+}
+.contact button.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: linear-gradient(to right, rgba(114,96,206,1) 0%, rgba(70,96,241,1) 100%);
+    color: #ffffff;
+}
+
+.contact .main .left {
+    padding: 40px 60px;
+}
+.contact .main .right {
+    background:#5d5db7;
+    background-size: cover;
+    padding: 40px;
+    color: #ffffff;
+    height: 100%;
+}
+.contact .main .right h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact .main .right .info {
+    margin-bottom: 35px;
+}
+.contact .main .right .info i {
+    font-size: 25px;
+    color: #ffffff;
+}
+.contact .main .right .info span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.contact .main .right .social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+
+
+@font-face {
+    font-family: "Akkurat-Regular";
+    src:url("../font/akkurat/lineto-akkurat-regular.eot");
+    src:url("../font/akkurat/lineto-akkurat-regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/akkurat/lineto-akkurat-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+
+html {
+    font-size: 16px;
+}
+body {
+    padding: 0 0px;
+    min-width: 300px;
+    font-family: 'Akkurat-Regular', sans-serif;
+    background-color: #fffffe;
+    color: #1a1a1a;
+    text-align: center;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
+.background-success {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://picsum.photos/seed/picsum/3000/2000);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 50px;
+}
+
+a:link,
+a:visited {
+    color: #00c2a8;
+}
+a:hover,
+a:active {
+    color: #03a994;
+}
+
+.site-header {
+    margin: 0;
+    padding: 0px 0 0;
+    max-width: 820px;
+}
+.site-header__title {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.main-content {
+    margin: 0 auto;
+    max-width: 820px;
+}
+.main-content__checkmark {
+    font-size: 10rem;
+    line-height: 1;
+    color: #24b663;
+}
+.main-content__body {
+    margin: 10px 5px 5px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+}
+
+
+
